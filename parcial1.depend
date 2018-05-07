@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1525695823 source:c:\test\test1\parcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525700441 .h"
+
+1525701127 c:\test\test1\parcial1\funciones.h
+
+1525700441 source:c:\test\test1\parcial1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525695824 source:/home/augusto/Proyectos/parcial1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525719330 /home/augusto/Proyectos/parcial1/funciones.h
+
+1525717563 source:/home/augusto/Proyectos/parcial1/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525716727 source:/home/augusto/Proyectos/parcial1/borrarPropietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525718987 source:/home/augusto/Proyectos/parcial1/menuGeneral.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525716929 source:/home/augusto/Proyectos/parcial1/cargarPropietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717004 source:/home/augusto/Proyectos/parcial1/cargarIngreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525718900 source:/home/augusto/Proyectos/parcial1/cargarEgreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525718905 source:/home/augusto/Proyectos/parcial1/cargarAutomovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717180 source:/home/augusto/Proyectos/parcial1/mostrarPropietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717241 source:/home/augusto/Proyectos/parcial1/mostarIngresos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717329 source:/home/augusto/Proyectos/parcial1/mostarEgresos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717377 source:/home/augusto/Proyectos/parcial1/mostrarMarcas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717479 source:/home/augusto/Proyectos/parcial1/inicialarRegistroProp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1525717590 source:/home/augusto/Proyectos/parcial1/horaEstadia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"funciones.h"
+
