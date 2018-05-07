@@ -3,8 +3,11 @@
 #include <string.h>
 #include "funciones.h"
 
-#define TAM 4
-#define TAMANIO 10
+#define ALPHA_ROMEO 1
+#define FERRARI 2
+#define AUDI 3
+#define OTROS 4
+
 
 void mostrarMarcas (Marca marc[])
 {
