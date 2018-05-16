@@ -12,6 +12,10 @@ void cargaEgresos (Egresos egr[], int cant)
 
     for(i=0; i<cant; i++)
     {
+        printf("\nID: ");
+        scanf("%d", &egr[i].id);
+        getchar();
+
         printf("\nId Marca: ");
         scanf("%d", &egr[i].id);
         getchar();

@@ -3,37 +3,29 @@
 #include <string.h>
 #include "funciones.h"
 
+#define TAM 4
 #define ON 0
 #define OFF 1
 
 void borrarPropietario(Propietarios prop[],int cant)
 {
-   int i;
-   int x;
-   int ch;
-   int ok;
-   //int LIBRE=0;
+
+int index;
 
 
-   do{
-      printf("\nIngrese el ID del Propietario a borrar: ");
-      fflush(stdout);
-      if ((ok = scanf("%d", &x)) == EOF)
-         return EXIT_FAILURE;
 
+    index = busquedaId(prop,cant);
 
-      if ((ch = getchar()) != '\n')
-      {
-         ok = 0;
+   if(index !=-1)
+    {
+        prop[index].est=ON;
+        printf("\nEL REGISTRO HA SIDO ELIMINADO.-\n\n\n\n");
+    }
 
-         while ((ch = getchar()) != EOF && ch != '\n');
-      }
-   }while (!ok);
-printf("\n===============================\n");
+    else
+    {
+      printf("PROPIETARIO NO ENCONTRADO!!!\n");
 
+     }
 
-   if(prop!=NULL)
-        {
-        prop[cant].est=ON;
-        }
 }

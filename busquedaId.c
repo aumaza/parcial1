@@ -3,6 +3,8 @@
 #include <string.h>
 #include "funciones.h"
 
+#define TAM 4
+
 int busquedaId (Propietarios prop[], int cant)
 
 {
@@ -29,12 +31,14 @@ if(flag=='F')
 {
 
 printf("\nEl ID no existe");
+printf("\n=========================================\n");
 
 }
 
 else if(flag=='V')
 {
 printf("\nEl ID existe y pertenece a: %s", prop[i].nombre);
+printf("\n=========================================\n");
 }
     return dato;
 }

@@ -13,6 +13,7 @@ typedef struct
 typedef struct
 {
     int id;
+    int est;
     char patente[20];
     int marca;
     int propietario;
@@ -27,10 +28,13 @@ typedef struct
 typedef struct
 {
     int id;
+    int est;
+    int marca;
     float importe;
+
 }Egresos;
 
-int devolverHorasEstadia();
+int  devolverHorasEstadia();
 void menuGeneral();
 void altaPropietario (Propietarios prop[], int cant);
 void cargaIngreso (Ingresos ing[], int cantidad);
@@ -40,8 +44,13 @@ void mostrarPropietarios (Propietarios prop[], int cant);
 void mostrarIngresos (Ingresos ing[], int cantidad);
 void mostrarEgresos (Egresos egr[], int cantidad);
 void mostrarMarcas (Marca marc[]);
-int initRegProp(Propietarios prop[],int cant);
+int  initRegProp(Propietarios prop[],int cant);
 void borrarPropietario(Propietarios prop[],int cant);
 void ModificarUnaPersona(Propietarios prop[],int cantidad);
+int  busquedaId (Propietarios prop[], int cant);
+void harcodeo (Propietarios prop[]);
+void harcodeoIngreso (Ingresos ing[]);
+void harcodeoEgreso (Egresos egr[]);
+int pideDato ();
 
 #endif // FUNCIONES_H_INCLUDED

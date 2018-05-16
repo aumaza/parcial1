@@ -3,7 +3,7 @@
 #include <string.h>
 #include "funciones.h"
 
-#define TAM 4
+
 #define TAMANIO 10
 
 
@@ -15,6 +15,7 @@ void mostrarEgresos (Egresos egr[], int cantidad)
     {
 
         printf("\n%i.ID: %d", i+1, egr[i].id);
+        printf("\n%i.ID Marca: %d", i+1, egr[i].marca);
         printf("\n%i.IMPORTE: %.2f", i+1, egr[i].importe);
         printf("\n==================================\n");
 

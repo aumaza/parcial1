@@ -4,7 +4,7 @@
 #include "funciones.h"
 
 #define ON 0
-#define Off 1
+#define OFF 1
 #define TAM 4
 #define TAMANIO 10
 
@@ -17,7 +17,7 @@ int initRegProp(Propietarios prop[],int cant)
        for(i=0;i<cant;i++)
        {
            retorno=0;
-           prop[i].est=ON;
+           prop[i].est=OFF;
         }
    }
     return retorno;

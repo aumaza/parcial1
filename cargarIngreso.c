@@ -27,7 +27,7 @@ printf("Marca: ");
 scanf("%d", &ing[i].marca);
 getchar();
 
-printf("Id del Propietario: ");int LIBRE=0;
+printf("Id del Propietario: ");
 scanf("%d", &ing[i].propietario);
 getchar();
 }

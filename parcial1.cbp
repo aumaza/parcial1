@@ -31,7 +31,65 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="borrarPropietario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="busquedaId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargarAutomovil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargarEgreso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargarIngreso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargarPropietario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones.h" />
+		<Unit filename="harcodeoEgreso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="harcodeoIngreso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="harcodeoMarcas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="harcodeoPropietario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="horaEstadia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inicialarRegistroProp.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuGeneral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modificarDatoProp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostarEgresos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostarIngresos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostrarMarcas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostrarPropietario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pideDato.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

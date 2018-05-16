@@ -21,7 +21,7 @@
 	<string.h>
 	"funciones.h"
 
-1525719330 /home/augusto/Proyectos/parcial1/funciones.h
+1526430631 /home/augusto/Proyectos/parcial1/funciones.h
 
 1525717563 source:/home/augusto/Proyectos/parcial1/funciones.c
 	<stdio.h>
@@ -29,13 +29,13 @@
 	<string.h>
 	"funciones.h"
 
-1525716727 source:/home/augusto/Proyectos/parcial1/borrarPropietario.c
+1526433115 source:/home/augusto/Proyectos/parcial1/borrarPropietario.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 
-1525718987 source:/home/augusto/Proyectos/parcial1/menuGeneral.c
+1526428802 source:/home/augusto/Proyectos/parcial1/menuGeneral.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -47,13 +47,13 @@
 	<string.h>
 	"funciones.h"
 
-1525717004 source:/home/augusto/Proyectos/parcial1/cargarIngreso.c
+1526428320 source:/home/augusto/Proyectos/parcial1/cargarIngreso.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 
-1525718900 source:/home/augusto/Proyectos/parcial1/cargarEgreso.c
+1526428812 source:/home/augusto/Proyectos/parcial1/cargarEgreso.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -65,7 +65,7 @@
 	<string.h>
 	"funciones.h"
 
-1525717180 source:/home/augusto/Proyectos/parcial1/mostrarPropietario.c
+1526433692 source:/home/augusto/Proyectos/parcial1/mostrarPropietario.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -77,19 +77,19 @@
 	<string.h>
 	"funciones.h"
 
-1525717329 source:/home/augusto/Proyectos/parcial1/mostarEgresos.c
+1526429567 source:/home/augusto/Proyectos/parcial1/mostarEgresos.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 
-1525717377 source:/home/augusto/Proyectos/parcial1/mostrarMarcas.c
+1525735497 source:/home/augusto/Proyectos/parcial1/mostrarMarcas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 
-1525717479 source:/home/augusto/Proyectos/parcial1/inicialarRegistroProp.c
+1526429790 source:/home/augusto/Proyectos/parcial1/inicialarRegistroProp.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -100,5 +100,52 @@
 	<stdlib.h>
 	<string.h>
 	<time.h>
+	"funciones.h"
+
+1526433195 source:/home/augusto/Proyectos/parcial1/busquedaId.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1526429998 source:/home/augusto/Proyectos/parcial1/modificarDatoProp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1526433550 source:/home/augusto/Proyectos/parcial1/harcodeoPropietario.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526427681 source:/home/augusto/Proyectos/parcial1/harcodeoIngreso.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526428381 source:/home/augusto/Proyectos/parcial1/harcodeoEgreso.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526427955 source:/home/augusto/Proyectos/parcial1/harcodeoMarcas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526430616 source:/home/augusto/Proyectos/parcial1/pideDato.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
 	"funciones.h"
 

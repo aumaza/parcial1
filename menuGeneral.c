@@ -19,7 +19,10 @@ int ch;
 int ok;
 int opc;
 
-//initRegPer(per,TAM);
+initRegProp(prop,TAM);
+harcodeo(prop);
+harcodeoIngreso(ing);
+harcodeoEgreso(egr);
 
 do
 {
@@ -34,14 +37,16 @@ printf("\nLISTAR DATOS");
 printf("\n===============================");
 printf("\n5. Listar Propietarios");
 printf("\n6. Listar Ingresos");
-printf("\n7. Listar Marcas");
+printf("\n7. Listar Egresos");
+printf("\n8. Listar Marcas");
+printf("\n9. Buscar ID Propietario");
 printf("\n===============================");
 printf("\nADMINISTRACION DE DATOS");
 printf("\n===============================");
-printf("\n8. Baja Propietario");
+printf("\n10. Baja Propietario");
 //printf("\n5. Ordenar por Edades");
 //printf("\n6. Rango de Edades");
-printf("\n9. Salir");
+printf("\n11. Salir");
 printf("\n===============================\n");
 //printf("\nOpcion: ");
 //scanf("%d", &opc);
@@ -73,10 +78,12 @@ case 3: cargaEgresos(egr,TAMANIO); break;
 case 4: cargaAutomovil(marc); break;
 case 5: mostrarPropietarios(prop,TAM); break;
 case 6: mostrarIngresos(ing,TAMANIO); break;
-case 7: mostrarMarcas(marc); break;
-case 8: borrarPropietario(prop,TAM); break;
+case 7: mostrarEgresos(egr,TAMANIO);
+case 8: mostrarMarcas(marc); break;
+case 9: busquedaId(prop,TAM); break;
+case 10: borrarPropietario(prop,TAM); break;
 }
-}while(opc!=9);
+}while(opc!=11);
 
 printf("\nHA DECIDIDO SALIR.\nHASTA LUEGO.\n");
 printf("\n===============================\n");
